@@ -1110,6 +1110,17 @@ socks = ["PySocks (>=1.5.6,<1.5.7 || >1.5.7,<2.0)"]
 
 [[package]]
 category = "main"
+description = "A Python package for offline access to Vega datasets"
+name = "vega-datasets"
+optional = false
+python-versions = ">=3.5"
+version = "0.9.0"
+
+[package.dependencies]
+pandas = "*"
+
+[[package]]
+category = "main"
 description = "Visions"
 name = "visions"
 optional = false
@@ -1167,7 +1178,7 @@ version = "3.5.1"
 notebook = ">=4.4.1"
 
 [metadata]
-content-hash = "7fe481c0dd23eaab8c56ef1980ab2d7c68bc55593400da26140ef31c9ffdc643"
+content-hash = "d429537cc2057cd09c4a463e56e58c922800ba94b951b953b0747e9e5cf06590"
 lock-version = "1.0"
 python-versions = "^3.8"
 
@@ -1905,6 +1916,10 @@ traitlets = [
 urllib3 = [
     {file = "urllib3-1.26.3-py2.py3-none-any.whl", hash = "sha256:1b465e494e3e0d8939b50680403e3aedaa2bc434b7d5af64dfd3c958d7f5ae80"},
     {file = "urllib3-1.26.3.tar.gz", hash = "sha256:de3eedaad74a2683334e282005cd8d7f22f4d55fa690a2a1020a416cb0a47e73"},
+]
+vega-datasets = [
+    {file = "vega_datasets-0.9.0-py3-none-any.whl", hash = "sha256:3d7c63917be6ca9b154b565f4779a31fedce57b01b5b9d99d8a34a7608062a1d"},
+    {file = "vega_datasets-0.9.0.tar.gz", hash = "sha256:9dbe9834208e8ec32ab44970df315de9102861e4cda13d8e143aab7a80d93fc0"},
 ]
 visions = [
     {file = "visions-0.6.0-py3-none-any.whl", hash = "sha256:084d31a8c932bf9fbe3c9532b9c83c202b92aa301a36e48b546fe5f1c8fee08b"},
